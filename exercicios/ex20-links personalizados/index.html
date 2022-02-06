@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        /*Seletores personalizados
+          #  = id
+          .  = class
+          :  = pseudo-class
+          :: = pseudo-element
+          > = children (descendente)
+        */
+        body {
+            font: 1em sans-serif;
+        }
+       p{
+           
+       }
+        a {
+            color: rgb(116, 10, 255);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: rgb(248, 12, 12)
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        a:active {
+            color: rgb(230, 189, 10);
+        }
+        a::before {
+            content: '»';
+        }
+        a::after {
+            content:' «';
+            color: rgb(8, 8, 8);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.girhub.io">girhub</a></li>
+        <li><a href="https://youtube.com/cursoemvideo">youtube</a></li>
+        <li><a href="#">Site</a></li>
+    </ul>
+    
+    
+</body>
+</html>
